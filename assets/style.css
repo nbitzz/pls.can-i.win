@@ -1,0 +1,17 @@
+body {
+    color: black;
+}
+
+body > img {
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+@media screen and (max-width: 478px) {
+    body > img {
+        width:100%;
+        height:auto;
+    }
+}
